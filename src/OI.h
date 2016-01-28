@@ -9,7 +9,7 @@ private:
 	Joystick* xbox;
 public:
 	OI();
-	Joystick getXbox();
+	Joystick* getXbox();
 };
 
 #endif

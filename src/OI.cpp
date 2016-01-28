@@ -5,6 +5,6 @@ OI::OI()
 	// Process operator interface input here.
 	xbox = new Joystick(0);
 }
-Joystick OI::getXbox(){
+Joystick* OI::getXbox(){
 	return xbox;
 }
